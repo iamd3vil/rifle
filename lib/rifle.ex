@@ -45,10 +45,10 @@ defmodule Rifle do
 
   Options:
 
-  `svc_name` - Name of the pool.
-  `path` - Path without the domain given while starting the pool.
-  `headers` - List of tuples(with binaries) which will be passed as custom headers.
-  `req_opts` - Options given to `Gun`. Has a `:timeout` of 10 seconds as default.
+  - `svc_name` - Name of the pool.
+  - `path` - Path without the domain given while starting the pool.
+  - `headers` - List of tuples(with binaries) which will be passed as custom headers.
+  - `req_opts` - Options given to `Gun`. Has a `:timeout` of 10 seconds as default.
   """
   def get(svc_name, path, headers \\ [], req_opts \\ %{}) do
     request(svc_name, "GET", path, "", headers, req_opts)
