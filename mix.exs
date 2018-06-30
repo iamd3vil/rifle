@@ -41,8 +41,7 @@ defmodule Rifle.MixProject do
       licenses: ["MIT"],
       maintainers: ["Sarat Chandra <me@saratchandra.in>"],
       links: %{
-        "Github" => "https://github.com/iamd3vil/rifle",
-        "Online Documentation" => "https://hexdocs.pm/rifle"
+        "Github" => "https://github.com/iamd3vil/rifle"
       }
     ]
   end
