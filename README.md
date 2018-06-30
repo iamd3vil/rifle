@@ -4,7 +4,7 @@ Rifle is a wrapper over [Gun](https://github.com/ninenines/gun). Rifle also prov
 
 ## Installation
 
-`Rifle` is available as a Hex package. You need to add `gun` as well before adding `rifle` to your `deps()` in `mix.exs`.
+`Rifle` is available as a Hex package. You need to add `gun`, before adding `rifle` to your `deps()` in `mix.exs`.
 
 
 ```elixir
