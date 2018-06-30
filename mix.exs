@@ -11,6 +11,7 @@ defmodule Rifle.MixProject do
       package: package(),
       name: "Rifle",
       source_url: "https://github.com/iamd3vil/rifle",
+      docs: [main: "readme", extras: ["README.md"]],
       deps: deps()
     ]
   end
