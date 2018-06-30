@@ -21,10 +21,8 @@ Adding this line will create supervisor with pool of connections.
 
 #### For making requests:
 
-`Rifle.request(service_name,  method, path, body, headers \\ [], req_opts \\ %{})`
+`Rifle.get/4`, `post/5`, `delete/5`, `put/5`, `head/5`, `options/5` or `requests/6` can be used to place requests.
 
-- `service_name` is the name of the pool.
-- `path` is the url path without the domain.
 
 ## TODO 
 
